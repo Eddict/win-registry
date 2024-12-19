@@ -1,4 +1,4 @@
-package com.github.sarxos.winreg.internal;
+package com.github.eddict.winreg.internal;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 import java.util.prefs.Preferences;
 
-import com.github.sarxos.winreg.HKey;
+import com.github.eddict.winreg.HKey;
 
 
 /**

@@ -1,14 +1,14 @@
-package com.github.sarxos.winreg;
+package com.github.eddict.winreg;
 
-import static com.github.sarxos.winreg.internal.WindowsPreferencesBuilder.HKCC_VALUE;
-import static com.github.sarxos.winreg.internal.WindowsPreferencesBuilder.HKCR_VALUE;
-import static com.github.sarxos.winreg.internal.WindowsPreferencesBuilder.HKCU_VALUE;
-import static com.github.sarxos.winreg.internal.WindowsPreferencesBuilder.HKLM_VALUE;
-import static com.github.sarxos.winreg.internal.WindowsPreferencesBuilder.HKU_VALUE;
+import static com.github.eddict.winreg.internal.WindowsPreferencesBuilder.HKCC_VALUE;
+import static com.github.eddict.winreg.internal.WindowsPreferencesBuilder.HKCR_VALUE;
+import static com.github.eddict.winreg.internal.WindowsPreferencesBuilder.HKCU_VALUE;
+import static com.github.eddict.winreg.internal.WindowsPreferencesBuilder.HKLM_VALUE;
+import static com.github.eddict.winreg.internal.WindowsPreferencesBuilder.HKU_VALUE;
 
 import java.util.prefs.Preferences;
 
-import com.github.sarxos.winreg.internal.WindowsPreferencesBuilder;
+import com.github.eddict.winreg.internal.WindowsPreferencesBuilder;
 
 
 /**

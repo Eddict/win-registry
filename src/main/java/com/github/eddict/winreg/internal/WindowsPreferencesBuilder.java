@@ -1,4 +1,4 @@
-package com.github.sarxos.winreg.internal;
+package com.github.eddict.winreg.internal;
 
 import java.lang.reflect.Constructor;
 import java.util.logging.Level;

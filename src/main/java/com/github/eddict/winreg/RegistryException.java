@@ -1,4 +1,4 @@
-package com.github.sarxos.winreg;
+package com.github.eddict.winreg;
 
 @SuppressWarnings("serial")
 public class RegistryException extends Exception {

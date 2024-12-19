@@ -1,10 +1,10 @@
-package com.github.sarxos.winreg;
+package com.github.eddict.winreg;
 
 import java.util.List;
 import java.util.Map;
 
-import com.github.sarxos.winreg.internal.RC;
-import com.github.sarxos.winreg.internal.ReflectedMethods;
+import com.github.eddict.winreg.internal.RC;
+import com.github.eddict.winreg.internal.ReflectedMethods;
 
 
 /**

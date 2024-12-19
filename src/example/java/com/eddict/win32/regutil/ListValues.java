@@ -1,11 +1,11 @@
-package com.sarxos.win32.regutil;
+package com.eddict.win32.regutil;
 
 import java.util.List;
 import java.util.Map;
 
-import com.github.sarxos.winreg.HKey;
-import com.github.sarxos.winreg.RegistryException;
-import com.github.sarxos.winreg.WindowsRegistry;
+import com.github.eddict.winreg.HKey;
+import com.github.eddict.winreg.RegistryException;
+import com.github.eddict.winreg.WindowsRegistry;
 
 
 

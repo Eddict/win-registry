@@ -11,7 +11,7 @@ Add dependency to your project:
 
 ```xml
 <dependency>
-	<groupId>com.github.sarxos</groupId>
+	<groupId>com.github.eddict</groupId>
 	<artifactId>windows-registry-util</artifactId>
 	<version>0.3</version>
 </dependency>

@@ -12,14 +12,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<groupId>com.github.sarxos</groupId>
+	<groupId>com.github.eddict</groupId>
 	<artifactId>windows-registry-util</artifactId>
 	<version>0.4-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	
 	<name>Windows Registry Utility</name>
 	<description>100% pure Java, simple Windows registry utility</description>
-	<url>https://github.com/sarxos/win-registry</url>
+	<url>https://github.com/Eddict/win-registry</url>
 	<inceptionYear>2011</inceptionYear>
 	
 	<organization>
@@ -30,7 +30,7 @@
 	<licenses>
 		<license>
 			<name>MIT License</name>
-			<url>https://raw.github.com/sarxos/win-registry/master/LICENSE.txt</url>
+			<url>https://raw.github.com/Eddict/win-registry/master/LICENSE.txt</url>
 			<distribution>repo,manual</distribution>
 		</license>
 	</licenses>
@@ -43,14 +43,14 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:sarxos/win-registry.git</connection>
-		<developerConnection>scm:git:git@github.com:sarxos/win-registry.git</developerConnection>
-		<url>git@github.com:sarxos/win-registry.git</url>
+		<connection>scm:git:git@github.com:eddict/win-registry.git</connection>
+		<developerConnection>scm:git:git@github.com:eddict/win-registry.git</developerConnection>
+		<url>git@github.com:eddict/win-registry.git</url>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues Manager</system>
-		<url>https://github.com/sarxos/win-registry/issues</url>
+		<url>https://github.com/Eddict/win-registry/issues</url>
 	</issueManagement>
 	
 	<developers>
@@ -196,8 +196,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>21</source>
+					<target>21</target>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -211,10 +211,10 @@
 						<Bundle-SymbolicName>${project.groupId}-${project.artifactId}-${project.version}</Bundle-SymbolicName>
 						<Import-Package>*</Import-Package>
 						<Private-Package>
-							com.github.sarxos.winreg.internal,
+							com.github.eddict.winreg.internal,
 						</Private-Package>
 						<Export-Package>
-							com.github.sarxos.winreg,
+							com.github.eddict.winreg,
 						</Export-Package>
 					</instructions>
 				</configuration>
