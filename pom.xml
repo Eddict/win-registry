@@ -248,6 +248,7 @@
 				<artifactId>maven-gitlog-plugin</artifactId>
 				<version>1.4.11</version>
 				<configuration>
+					<verbose>true</verbose>
 					<includeCommitsDuringTheLastDays>3650</includeCommitsDuringTheLastDays>
 				</configuration>
 				<executions>
