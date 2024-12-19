@@ -246,7 +246,7 @@
 			<plugin>
 				<groupId>com.github.danielflower.mavenplugins</groupId>
 				<artifactId>maven-gitlog-plugin</artifactId>
-				<version>[1.4.11,)</version>
+				<version>1.4.11</version>
 				<configuration>
 					<includeCommitsDuringTheLastDays>3650</includeCommitsDuringTheLastDays>
 				</configuration>
