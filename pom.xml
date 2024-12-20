@@ -178,7 +178,7 @@
 									<pluginExecutionFilter>
 										<groupId>com.github.danielflower.mavenplugins</groupId>
 										<artifactId>maven-gitlog-plugin</artifactId>
-										<versionRange>[1.4.11,)</versionRange>
+										<versionRange>[1.14.7,)</versionRange>
 										<configuration>
 											<verbose>true</verbose>
 											<includeCommitsDuringTheLastDays>3650</includeCommitsDuringTheLastDays>
@@ -251,7 +251,7 @@
 			<plugin>
 				<groupId>com.github.danielflower.mavenplugins</groupId>
 				<artifactId>maven-gitlog-plugin</artifactId>
-				<version>1.4.11</version>
+				<version>1.14.7</version>
 				<configuration>
 					<verbose>true</verbose>
 					<includeCommitsDuringTheLastDays>3650</includeCommitsDuringTheLastDays>
